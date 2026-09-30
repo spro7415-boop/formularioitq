@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario ITQ</title>
+</head>
+
+<head>
+    <!--titulo de la pagína web-->
+    <h1>Formulario De Registro Registro De Estudiantes</h1>
+
+</head>
+
+<div>
+    <form action="index.html" method="get">
+        <h1>1. Datos Personales</h1>
+        <div>
+            <label for="Nombres Completos"> Nombres*</label><br>
+            <input type="text" id="Nombres Completos">
+        </div><br>
+
+        <div>
+            <label for="Apellidos"> Apellidos*</label><br>
+            <input type="text" id="Apellidos">
+        </div><br>
+
+        <div>
+            <label for="Cedúla"> Cedúla/Identificación*</label><br>
+            <input type="number" id="Cedúla">
+        </div>
+
+        <div>
+            <label for="Correo"> Correo Electronico*</label><br>
+            <input type="email" id="Correo">
+        </div>
+
+        <div>
+            <label for="Género"> Género*</label>
+
+
+            <select name="Género" id="Género">
+                <option value="">Seleccione una opción</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Otro">Otro</option>
+            </select>
+
+        </div>
+
+        <div>
+
+            <h3>Género*</h3>
+
+            <label>
+                <input type="radio" name="genero" value="Masculino">
+                Masculino
+            </label>
+
+            <label>
+                <input type="radio" name="genero" value="Femenino">
+                Femenino
+            </label>
+
+            <label>
+                <input type="radio" name="genero" value="Otro">
+                Otro
+            </label>
+
+
+        </div>
+
+
+</div>
+
+<div>
+    <label for="Fecha">Fecha de Nacimiento* </label><br>
+    <input type="date" id="Fecha">
+</div>
+
+<div>
+    <label for="Estado"> Estado Civil:</label><br>
+
+    <select name="Estado" id="Estado">
+        <option value="">Seleccione una opción</option>
+        <option value="Soltero">Soltero</option>
+        <option value="Casado">Casado</option>
+        <option value="Otro">Otro</option>
+    </select>
+</div>
+
+<div>
+    <label for="Dirección">Dirección:</label><br>
+    <input type="text" id="Dirección">
+</div>
+
+<h1>2. información Académica</h1>
+
+<div>
+    <label for="Carrera">Carrera:*</label><br>
+
+    <select name="Carrera" id="Carrera">
+        <option value="">Seleccione una opción</option>
+        <option value="Desarrollo de Software">Desarrollo de Software</option>
+        <option value="Inteligencia Artificial">Inteligencia Artificial</option>
+        <option value="Marketing Digital">Marketing Digital</option>
+        <option value="Estetica Facial">Estetica Facial</option>
+        <option value="Veterinaria">Veterinaria</option>
+    </select>
+</div>
+
+<div>
+    <label for="Periodo">Periodo Academico</label><br>
+
+    <select name="Periodo" id="Periodo">
+        <option value="">Seleccione una opción</option>
+        <option value="2026-2027">2026-2027</option>
+    </select>
+</div>
+
+<div>
+
+    <h3>Turno:</h3>
+
+    <label>
+        <input type="radio" name="turno" value="Mañana">Mañana
+    </label>
+    <label>
+        <input type="radio" name="turno" value="Tarde">Tarde
+    </label>
+    <label>
+        <input type="radio" name="turno" value="Noche">Noche
+    </label>
+</div>
+
+
+<h3>Modalida de Estudio:</h3>
+
+<label>
+    <input type="radio" name="turno" value="Presencial">Precencial
+</label>
+<label>
+    <input type="radio" name="turno" value="En Linea">En Linea
+</label>
+<label>
+    <input type="radio" name="turno" value="Hibrida">Hibrida
+</label>
+
+<div>
+
+    <div>
+        <label for="Como se entero">¿Como se enteró de la Institución?</label><br>
+
+        <select name="Como se entero" id="Como se entero">
+            <option value="">Seleccione una opción</option>
+            <option value="Por Redes Sociales">En Redes Sociales</option>
+            <option value="Por un Amigo">Por un Amigo</option>
+            <option value="Por Recomendación">Por Recomendación</option>
+            <option value="Búsqueda en Internet">Búsqueda en Internet</option>
+            <option value="Por Trayectoria">Por Trayectoria</option>
+        </select>
+
+
+    </div>
+
+    <div>
+        <h3>3.Habilidades y Conocimientos</h3>
+
+        <label for="Marque sus áreas de interes">Marque sus áreas de interes:*</label><br>
+
+        <label for="web">Desarrollo Web</label>
+        <input type="checkbox" id="web" name="intereses" value="Desarrollo Web">
+
+        <label for="web">Desarrollo Móvil</label>
+        <input type="checkbox" id="web" name="intereses" value="Desarrollo Móvil">
+
+        <br>
+
+        <label for="web">Inteligencia Artificial</label>
+        <input type="checkbox" id="web" name="intereses" value="Inteligencia Artificial">
+
+        <label for="web">Ciencias de Datos</label>
+        <input type="checkbox" id="web" name="intereses" value="Ciencias de Datos">
+
+        <br>
+
+
+        <label for="web">Redes y Seguridad</label>
+        <input type="checkbox" id="web" name="intereses" value="Redes y Seguridad">
+
+
+        <label for="web">Robótica</label>
+        <input type="checkbox" id="web" name="intereses" value="Robótica">
+
+        <br>
+
+
+        <label for="web">Bases de Datos</label>
+        <input type="checkbox" id="web" name="intereses" value="Bases de Datos">
+
+        <label for="web">Otras</label>
+        <input type="checkbox" id="web" name="intereses" value="Otras">
+
+    </div>
+
+    <div><br>
+        <label for="conocimineto">Nivel de Conocimineto en Programación</label><br>
+
+        <label>
+            <input type="radio" name="conocimineto" value="Básico">Básico
+        </label><br>
+        <label>
+            <input type="radio" name="conocimineto" value="Intermedio">Intermedio
+        </label><br>
+        <label>
+            <input type="radio" name="conocimineto" value=Avanzado">Avanzado
+        </label>
+
+        <div>
+            <h3>4.Informacion Adicional</h3>
+
+            <label for="fotografia">Cargue su Fotografia:*</label><br>
+            <input type="file" id="foto" name="foto" accept=".jpg,.jpeg,.png" required>
+            <p>Formatos permitidos: JPG, PNG (Máx. 2MB)</p>
+
+        </div><br>
+
+        <div>
+
+            <label for="documento">Adjuntar documento(opcional):</label><br>
+            <input type="file" id="documento" name="documento" accept="PDF" required>
+            <p>PDF (Máx. 5MB)</p>
+
+        </div><br>
+
+        <div>
+
+            <label for="observaciones">Observaciones</label><br>
+
+            <textarea name="observacione" id="observacione" placeholder="Escriba información adicional...">
+
+            </textarea>
+        </div><br>
+
+        <div>
+
+            <button type="submit">Registrar</button>
+            <button type="reset">Limpiar</button>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+</form>
+</div>
+
+
+
+
+<body>
+
+</body>
+
+</html>
